@@ -5,6 +5,10 @@ const nextConfig = {
     config.experiments = {
       asyncWebAssembly: true,
     };
+    config.node = {
+      fs: 'empty'
+    }
+  
     return config;
   },
 };
