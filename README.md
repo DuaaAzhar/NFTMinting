@@ -38,12 +38,13 @@ https://docs.cardano.org/cardano-testnet/tools/faucet
 
 ### Step 4:
 Once you successfully setup the project, then on localhost press on `Connect Wallet` select Nami or eternl wallet upto your choice
+In `Index.js` file, add your address of wallet in the variable `myAddress` so that you can create NFT at your address.
 Then Click on `Mint Tokens` button to mint the NFT. 
 The pop up window will open to sign the transaction. You need to sign it and wait for 30 seconds. Then go into your wallet and check the transaction.
 You can also get the transactionHash from inspect, as i have consoled it here.
 
 #### Note:
-- Now, from where the image of NFT is coming? 
+Now, from where the image of NFT is coming? 
 I have uploaded that image on ipfs and added up the static link in code for your ease.
 To use your own images, you need to upload files on ipfs and add the link in metadata i.e.
 ```
@@ -54,4 +55,3 @@ const assetMetadata1: AssetMetadata = {
   "description": "This NFT is minted by Duaa through smartContract"
 };
 ```
-- Also, Currently I am using my Blockfrost API in this file just for demo so that it will be easy for you to understand the flow, but for project building, we will make the new Blockfrost API and project to interact with blockchain.
