@@ -43,7 +43,7 @@ The pop up window will open to sign the transaction. You need to sign it and wai
 You can also get the transactionHash from inspect, as i have consoled it here.
 
 #### Note:
--> Now, from where the image of NFT is coming? 
+- Now, from where the image of NFT is coming? 
 I have uploaded that image on ipfs and added up the static link in code for your ease.
 To use your own images, you need to upload files on ipfs and add the link in metadata i.e.
 ```
@@ -54,4 +54,4 @@ const assetMetadata1: AssetMetadata = {
   "description": "This NFT is minted by Duaa through smartContract"
 };
 ```
--> Also, Currently I am using my Blockfrost API in this file just for demo so that it will be easy for you to understand the flow, but for project building, we will make the new Blockfrost API and project to interact with blockchain.
+- Also, Currently I am using my Blockfrost API in this file just for demo so that it will be easy for you to understand the flow, but for project building, we will make the new Blockfrost API and project to interact with blockchain.
